@@ -1,0 +1,102 @@
+* {
+    font-family: "Roboto", "Futura";
+}
+
+body {
+    margin: 0px;
+}
+
+#front-center {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-color: darkslategrey;
+    height: 100vh;
+    width: 98.9vw;
+    margin-top: 0px;
+}
+
+.intro-name {
+    margin-top: 0px;
+    word-spacing: 10px;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+    font-size: 4em;
+    color: aliceblue;
+}
+
+.intro-desc {
+    color: aliceblue;
+}
+
+#explore-container {
+    text-align: center;
+    color: aliceblue;
+    height: 3vh;
+    margin-top: 11vh;
+}
+
+.down-arrow {
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s;
+}
+
+.down-arrow:hover {
+    transform: scale(1.2)
+}
+
+.container {
+    padding: 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.profile-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.profilepicture {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border-radius: 50%;
+}
+
+.para-container {
+    font-size: 1em;
+    line-height: 20px;
+    display: block;
+    margin-top: 15px;
+}
+
+.introduction-container {
+    padding-top: 37vh;
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+
+@media (min-width: 992px) {
+    .introduction-container {
+        width: 992px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 775px) {
+    #explore-container {
+        margin-top: 25vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .intro-name {
+        font-size: 3.3em;
+    }
+}
+

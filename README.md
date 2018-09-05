@@ -1,2 +1,1 @@
-# lloydoad.github.io
-Personal Portfolio
+# lloydoad.portfolio.io
