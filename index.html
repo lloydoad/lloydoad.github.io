@@ -1,244 +1,167 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
-
 <head>
-    <title>Lloyd Dapaah</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/navstyle.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/detailstyle.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Lloyd Dapaah</title>
+	
+	<link rel="stylesheet" href="./style/jquery-ui.min.css">
+	<link rel="stylesheet" href="./style/animate.css">
+	<link rel="stylesheet" href="./style/myStyle.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./script/jquery-ui.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="nav-control">
-            <a class="navbar-brand main-home-link" href="index.html">Lloyd Dapaah</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link navbar-brand" href="/software.html">Software</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link navbar-brand" href="/game-design.html">Game Design</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link navbar-brand" href="/artificialIntel.html">Artificial Intelligence</a>
-                </li>
-            </ul>
-            <span class="navbar-text">
-                <a class="nav-link navbar-brand" href="contact.html">Contact</a>
-            </span>
-          </div>
-        </nav>
-    </header>
-    
-    <div id="front-center">
-        <div class="container introduction-container">
-            <div class="row">
-                <div class="col-sm">
-                    <h1 class="intro-name">Lloyd Dapaah</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm">
-                    <h3 class="intro-desc">A programming enthusiast and an advocate for the study and implementation of new technologies</h3>
-                </div>
-            </div>
-        </div>
-    
-        <div id="explore-container">
-            <h3>Explore</h3>
-            <img src="images/down_arrow_white.png" class="down-arrow">
-        </div>
-    </div>
-    
-    <div class="container profile-container">
-      <div class="row align-items-center">
-        <div class="col-md-4 col-sm-12" id="profile-picture-container">
-          <img class="profilepicture" src="images/profilepicture.jpg">
-        </div>
-        <div class="col-md-8" col-sm-12>
-            <p class="para-container">
-                Hello. I'm a Computer Science student with a lot of technical hobbies. Currently enrolled at the University of Central Florida, I have had the oppurtunity to meet great people doing great things. These are the people who inspired me to do this: to make a concious effort into putting my creativity and skills to use. Although I may not have sufficient knowledge on some of these topics, my goal with this website is to keep myself accountable and be self-motivated to always achieve more. I have knowledge in primarily Java and C. I have also worked on multiple opensource projects in Swift. I am currently working on improving my skills in web development with a future goal of integrating machine learning.
-            </p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="software-detail-container">
-        <h2 class="software-title">Software</h2>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-sm" id="software-detail-card">
-                <div class="card text-center border-0" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Tell</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Swift, CocoaPods, Firebase</h6>
-                    <p class="card-text">Tell was designed to be a text messaging application that enables easy communication across languages.</p>
-                    <a href="/software.html" class="card-link">Read more</a>
-                    <a>|</a>
-                    <a href="https://github.com/lloydoad/Tell" class="card-link">GitHub</a>
-                  </div>
-                </div>
-            </div>
-                <div class="col-sm" id="software-detail-card">
-                <div class="card text-center border-0" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Web Design</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">HTML, CSS, JS</h6>
-                    <p class="card-text">A personal website made to show previous and future projects. This is still a work in progress.</p>
-                    <a href="/software.html" class="card-link">Read more</a>
-                  </div>
-                </div>
-            </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-sm" id="software-detail-card">
-                <div class="card text-center border-0" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">iTunes Search</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Swift, Data Persistance, Custom API request handling</h6>
-                    <p class="card-text">A simple single view iOS application that simplifies the search result display from Apple's iTunes API.</p>
-                    <a href="https://github.com/lloydoad/iTunesSearch" class="card-link">GitHub</a>
-                  </div>
-                </div>
-            </div>
-                <div class="col-sm" id="software-detail-card">
-                <div class="card text-center border-0" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">C and Java</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Data Structures, Algorithms</h6>
-                    <p class="card-text">Various data structures and algorithms commonly used on Computer Science. These could not be uploaded due to UCF copyright reasons.</p>
-                    <a href="/software.html" class="card-link">Read more</a>
-                  </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <a href="software.html" class="btn btn-light" id="center-btn">Learn More</a>
-    </div>
-    
-    <div class="other-detail-container">
-        <h2 class="software-title" id="other-custom">Games and Misc</h2>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-sm" id="software-detail-card">
-                    <div class="card text-center border-0" style="width: 18rem;">
-                      <div class="card-body" id="games-card-body">
-                        <h5 class="card-title">Spades</h5>
-                        <p class="card-text">A simple Java game for learning object-oriented programming concepts.</p>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-sm" id="software-detail-card">
-                    <div class="card text-center border-0" style="width: 18rem;">
-                      <div class="card-body" id="games-card-body">
-                        <h5 class="card-title">Space Invaders</h5>
-                        <p class="card-text">A more complex game demonstration collision detections and animation.</p>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-sm" id="software-detail-card">
-                    <div class="card text-center border-0" style="width: 18rem;">
-                      <div class="card-body" id="games-card-body">
-                        <h5 class="card-title">Design</h5>
-                        <p class="card-text">Custom sprites, images, buttons and miscellaneous graphics made with PixelMator and Sketch.</p>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a href="/game-design.html" class="btn btn-dark" id="center-btn">Learn More</a>
-    </div>
-    
-    <div class="software-detail-container">
-        <h2 class="software-title">Artificial Intelligence</h2>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-sm" id="software-detail-card">
-                    <div class="card text-center border-0" style="width: 30rem;">
-                      <div class="card-body">
-                        <h5 class="card-title">Coming Soon</h5>
-                        <p class="card-text">Goal: An iOS application that recommends the best restaurant to go to based on User preference. It would also use machine learning to constantly learn what users actually want and improve search results</p>
-                        <p class="card-text"></p>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <footer>
-        <div class="footer-container">
-            <div class="container" id="footer-container-custom">
-                <div class="row align-items-center no-gutters">
-                    <div class="col-sm" id="icon-col-custom">
-                        <a href="contact.html" class="email-icon">              
-                        <img src="icons/email.png" class="icon-custom">
-                        </a>
-                    </div>
-                    <div class="col-sm" id="icon-col-custom">
-                        <a href="https://github.com/lloydoad" class="github-icon">
-                        <img src="icons/github.png" class="icon-custom">
-                        </a>
-                    </div>
-                    <div class="col-sm" id="icon-col-custom">
-                        <a href="https://www.instagram.com/lloydoad/" class="instagram-icon">
-                        <img src="icons/instagram.png" class="icon-custom">
-                        </a>
-                    </div>
-                    <div class="col-sm" id="icon-col-custom">
-                        <a href="https://www.linkedin.com/in/lloyddapaah/" class="linkedin-icon">
-                        <img src="icons/linkedIn.png" class="icon-custom">
-                        </a>
-                    </div>
-                    <div class="col-sm" id="icon-col-custom">
-                        <a href="https://twitter.com/lloydoad" class="twitter-icon">
-                        <img src="icons/twitter.png" class="icon-custom">
-                        </a>
-                    </div>
-                    <div class="col-sm" id="icon-col-custom">
-                        <a href="https://www.snapchat.com/add/lloydoad" class="snapchat-icon">
-                        <img src="icons/snapchat.png" class="icon-custom">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <h4 class="footer-text">Direct emails are preferred for collaborations and employment opportunities:<br>lloyd.lloyddapaah@gmail.com</h4>
-            <div class=".container-fluid footer-menu-container">
-                <div class="row align-items-center">
-                    <div class="col-sm footer-menu">
-                        <a href="index.html" class="footer-menu-text">Lloyd Dapaah</a>
-                    </div>
-                    <div class="col-sm footer-menu">
-                        <a href="/software.html" class="footer-menu-text">Software</a>
-                    </div>
-                    <div class="col-sm footer-menu">
-                    <a href="/game-design.html" class="footer-menu-text">Game and Design</a>
-                    </div>
-                    <div class="col-sm footer-menu">
-                        <a href="/artificialIntel.html" class="footer-menu-text">Intelligence</a>
-                    </div>
-                    <div class="col-sm footer-menu">
-                        <a href="contact.html" class="footer-menu-text">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script src="js/nav-shrink.js"></script>
+	<div class="launching-desktop">
+		<div class="label welcome-message one-m">
+			<h1 class="one-m-text">Hi, I'm Lloyd</h1>
+		</div>
+		<div class="label welcome-message two-m">
+			<h1 class="two-m-text">I'm a developer + a designer</h1>
+		</div>
+		<img class="launch-image" src="./images/loading/loadingOne.gif" alt="loading.gif">
+	</div>
+
+	<div class="launched-desktop">
+			<div class="top-menu transparent-container">
+					<div class="top-menu-section">
+						<a class="label menu-label" href="#">Mail</a>
+						<a class="label menu-label" href="#">Résumé</a>
+					</div>
+					<div class="top-menu-section">
+						<a class="label menu-label" href="#">LinkedIn</a>
+						<a class="label menu-label" href="#">Github</a>
+						<a class="label menu-label" href="#">Projects</a>
+					</div>
+					<div class="top-menu-section" style="border: none">
+						<a class="label menu-label" href="#">Restart...</a>
+					</div>
+				</div>
+				
+				<div class="top-menu-bar transparent-container">
+					<div>
+						<button type="button" name="menuButton" class="menu-button menu-label label">
+							Menu
+						</button>
+					</div>
+					<div>
+						<p class="time-label label">XXX 00:00 PM</p>
+					</div>
+				</div>
+				
+				<div id="mainContainingWindow">
+					<div class="desktop-icon-container">
+						<div class="desktop-icon">
+						<div>
+							<img src="images/aboutMeIcon.png" alt="aboutMeIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">AboutMe.pdf</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/blackFolderIcon.png" alt="projectIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Projects</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/mailIcon.png" alt="mailIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Mail.exe</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/briefcaseIcon.png" alt="resumeIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Résumé.pdf</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/linkedInIcon.png" alt="linkedInIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">LinkedIn.html</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/githubIcon.svg" alt="githubIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Github.html</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/twitterIcon.png" alt="twitterIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Twitter.html</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/instagramIcon.png" alt="instagramIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Instagram.html</p>
+						</div>
+					</div>
+					</div>
+				
+					<div id="resume-pdf-window" class="folder-window transparent-container">
+						<div class="window-menu-bar">
+							<img src="./images/redCloseIcon.png" class="close-window-button" name="resume-pdf-window" alt="close">
+						</div>
+						<div class="outer-pdf-container">
+							<object data="./resources/pdf/Resume_LloydDapaah.pdf" type="application/pdf" class="inner-pdf-container">
+								<iframe src="./resources/pdf/Resume_LloydDapaah.pdf"></iframe>
+							</object>
+						</div>
+					</div>
+					
+					<div id="about-pdf-window" class="folder-window transparent-container">
+						<div class="window-menu-bar">
+							<img src="./images/redCloseIcon.png" class="close-window-button" name="about-pdf-window" alt="close">
+						</div>
+						<div class="outer-pdf-container">
+							<object data="./resources/pdf/LloydDapaah_Resume.pdf" type="application/pdf" class="inner-pdf-container">
+								<iframe src="./resources/pdf/LloydDapaah_Resume.pdf"></iframe>
+							</object>
+						</div>
+					</div>
+					
+					<div id="projects-collection-window" class="folder-window transparent-container">
+						<div class="window-menu-bar">
+							<img src="./images/redCloseIcon.png" class="close-window-button" name="projects-collection-window" alt="close">
+						</div>
+						<div id="projects-folder-container" class="outer-projects-container">
+							<div class="project-icon">
+								<div>
+									<img src="./images/projectIcon.png" alt="Tell Icon" class="desktop-icon-image">
+								</div>
+								<div>
+									<p class="label desktop-icon-label" style="text-align: center; color: black;">Tell Messenger</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="credit-at-footer label">
+					<p style="font-weight: 40; font-size: 12px">Photo by Tadej Skofic</p>
+				</div>
+	</div>
+	
+	<script type="text/javascript" src="script/script.js"></script>
 </body>
-    
 </html>
