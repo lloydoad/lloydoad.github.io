@@ -1,3 +1,5 @@
+window.location = "http://www.dapaah.me";
+
 const quotes = [
 	"There are two ways to write error-free programs; only the third one works.",
 	"It’s not a bug – it’s an undocumented feature.",

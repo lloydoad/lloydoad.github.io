@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Lloyd Dapaah</title>
+
+	<link rel="stylesheet" href="./style/jquery-ui.min.css">
+	<link rel="stylesheet" href="./style/animate.css">
+	<link rel="stylesheet" href="./style/myStyle.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./script/jquery-ui.min.js"></script>
+</head>
+
+<body>
+	<div class="launching-desktop">
+		<div class="label welcome-message one-m">
+		</div>
+		<div class="label welcome-message two-m">
+		</div>
+	</div>
+
+	<div class="launched-desktop">
+			<div class="top-menu transparent-container">
+					<div class="top-menu-section">
+						<a class="label menu-label" href="#">Mail</a>
+						<a class="label menu-label" href="#">Résumé</a>
+					</div>
+					<div class="top-menu-section">
+						<a class="label menu-label" href="#">LinkedIn</a>
+						<a class="label menu-label" href="#">Github</a>
+						<a class="label menu-label" href="#">Projects</a>
+					</div>
+					<div class="top-menu-section" style="border: none">
+						<a class="label menu-label" href="#">Restart...</a>
+					</div>
+				</div>
+
+				<div class="top-menu-bar transparent-container">
+					<div>
+						<button type="button" name="menuButton" class="menu-button menu-label label">
+							Menu
+						</button>
+					</div>
+					<div>
+						<p class="time-label label">XXX 00:00 PM</p>
+					</div>
+				</div>
+
+				<div id="mainContainingWindow">
+					<div class="desktop-icon-container">
+						<div class="desktop-icon">
+						<div>
+							<img src="images/aboutMeIcon.png" alt="aboutMeIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">AboutMe.pdf</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/blackFolderIcon.png" alt="projectIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Projects</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/mailIcon.png" alt="mailIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Mail.exe</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/briefcaseIcon.png" alt="resumeIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Résumé.pdf</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/linkedInIcon.png" alt="linkedInIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">LinkedIn.html</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/githubIcon.svg" alt="githubIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Github.html</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/twitterIcon.png" alt="twitterIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Twitter.html</p>
+						</div>
+					</div>
+					<div class="desktop-icon">
+						<div>
+							<img src="images/instagramIcon.png" alt="instagramIcon" class="desktop-icon-image">
+						</div>
+						<div>
+							<p class="label desktop-icon-label">Instagram.html</p>
+						</div>
+					</div>
+					</div>
+
+					<div id="resume-pdf-window" class="folder-window transparent-container">
+						<div class="window-menu-bar">
+							<img src="./images/redCloseIcon.png" class="close-window-button" name="resume-pdf-window" alt="close">
+						</div>
+						<div class="outer-pdf-container">
+							<object data="./resources/pdf/Resume_LloydDapaah.pdf" type="application/pdf" class="inner-pdf-container">
+								<iframe src="./resources/pdf/Resume_LloydDapaah.pdf"></iframe>
+							</object>
+						</div>
+					</div>
+
+					<div id="about-pdf-window" class="folder-window transparent-container">
+						<div class="window-menu-bar">
+							<img src="./images/redCloseIcon.png" class="close-window-button" name="about-pdf-window" alt="close">
+						</div>
+						<div class="outer-pdf-container">
+							<object data="./resources/pdf/LloydDapaah_Resume.pdf" type="application/pdf" class="inner-pdf-container">
+								<iframe src="./resources/pdf/LloydDapaah_Resume.pdf"></iframe>
+							</object>
+						</div>
+					</div>
+
+					<div id="projects-collection-window" class="folder-window transparent-container">
+						<div class="window-menu-bar">
+							<img src="./images/redCloseIcon.png" class="close-window-button" name="projects-collection-window" alt="close">
+						</div>
+						<div id="projects-folder-container" class="outer-projects-container">
+							<div class="project-icon">
+								<div>
+									<img src="./images/projectIcon.png" alt="Tell Icon" class="desktop-icon-image">
+								</div>
+								<div>
+									<p class="label desktop-icon-label" style="text-align: center; color: black;">Tell Messenger</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="construction">
+					<img src="./images/loading/underconstruction.gif" alt="construction.gif" width="100%">
+					<h1 class="label" style="text-align:center">Under Construction</h1>
+				</div>
+
+				<div class="credit-at-footer label">
+					<p style="font-weight: 40; font-size: 12px">Photo by Tadej Skofic</p>
+				</div>
+	</div>
+
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
